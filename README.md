@@ -15,14 +15,20 @@ From this folder you can run `rspec spec` to see a bunch of tests pass or you ca
 
 ## Commands
 The application takes the following commands:
+
 `PLACE X,Y,DIRECTION` (eg PLACE 2,2,EAST) - places robot on designated co-ordinate and facing in designated direction
+
 `LEFT` - turns robot 90 degrees counter-clockwise
+
 `RIGHT` - turns robot 90 degrees clockwise
+
 `MOVE` - advances robot 1 space forward
+
 `REPORT` - gives X, Y position and facing direction of robot
+
 `EXIT` - exits application
 
 ### Please note:
 The robot can not take any commands when it is not placed on the table, other than a valid `PLACE` command.
 
-The table size is 5 x 5 and any commands that would cause the robot to fall off the table are in direct violation of Asimov's third law of robotics and a such are ignored for the safety of the machinery.
+The table size is 5 x 5 and any commands that would cause the robot to fall off the table are in direct violation of <a href="https://www.auburn.edu/~vestmon/robotics.html">Asimov's third law of robotics</a> and a such are ignored for the safety of the machinery.
